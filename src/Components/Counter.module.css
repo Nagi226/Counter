@@ -1,0 +1,84 @@
+.block {
+    display: flex;
+
+}
+
+.box {
+
+    display: flex;
+    flex-flow: column;
+    align-self: flex-start;
+    border: 3px solid #16c9de;
+    border-radius: 15px;
+    margin: 0 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.boxInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid #16c9de;
+    border-radius: 15px;
+    margin: 10px;
+    height: 150px;
+    font-size: 18px;
+}
+
+.input{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+}
+
+.input:focus {
+    border: 2px solid #16c9de;
+    outline:none;
+}
+
+.inputError {
+    border: 2px solid #c00d0d;
+    background-color: #c7486a;
+    outline:none;
+}
+
+.maxStartValueText{
+    color: #16c9de;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 30px;
+    font-size: 25px;
+}
+
+
+
+.boxButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid #16c9de;
+    border-radius: 15px;
+    margin: 10px;
+    height: 98px;
+}
+
+.boxCount{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid #16c9de;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+    height: 150px;
+    font-size: 70px;
+   color: #16c9de;
+}
+
+.textRed{
+    color: red !important;
+    font-size: 25px !important;
+}
+
